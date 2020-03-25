@@ -35,5 +35,11 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+        $this->str_after('haystack', 'needle');
+        for ($i=0; $i < 10; $i++) {
+            x.....
+        }
     }
+
+
 }
